@@ -4,10 +4,10 @@
 
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;400&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Noto+Serif+SC:wght@300&display=swap');
 html,
 body {
-  font-family: serif;
+  font-family: Crimson Text, Noto Serif SC;
 
   @apply bg-backcolor;
 }
@@ -75,12 +75,10 @@ header.header-wrapper {
   & h1 {
     @apply cursor-pointer m-0 relative;
 
-    font-family: 'Noto Serif SC', serif;
-
     & small {
-      @apply text-base ml-3;
+      @apply text-sm ml-3;
 
-      font-family: 'Roboto Slab', serif;
+      font-family: Heiti SC;
 
       &::before {
         content: 'ー ';
