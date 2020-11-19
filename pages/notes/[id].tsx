@@ -30,7 +30,7 @@ export const NoteView: NextPage<NoteViewProps> = ({ data }) => {
   return (
     <div className={'content-wrapper'}>
       <SEO title={data.title} />
-      <h1 className="text-2xl">{data.title}</h1>
+      <h1>{data.title}</h1>
       <div className={'time'}>{formatTime}</div>
       <article>
         <h1 style={{ display: 'none' }}>{data.title}</h1>
