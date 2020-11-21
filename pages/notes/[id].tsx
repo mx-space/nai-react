@@ -1,10 +1,8 @@
 import { getNoteContent } from 'api'
 import { NoteContentPayload } from 'api/types'
-import { notEqual } from 'assert'
 import Markdown from 'components/markdown'
 import { SEO } from 'components/seo'
 import { NextPage } from 'next'
-import { NextSeo } from 'next-seo'
 import React, { useMemo } from 'react'
 
 interface NoteViewProps {
@@ -31,7 +29,11 @@ export const NoteView: NextPage<NoteViewProps> = ({ data }) => {
     <div className={'content-wrapper'}>
       <SEO title={data.title} />
       <h1>{data.title}</h1>
-      <div className={'time'}>{formatTime}</div>
+      <div className={'meta'}>
+        <span>{formatTime}</span>
+        {data.mood && <span className={'ml-4'}>{data.mood}</span>}
+        {data.weather && <span className={'ml-4'}>{data.weather}</span>}
+      </div>
       <article>
         <h1 style={{ display: 'none' }}>{data.title}</h1>
         <Markdown value={data.text} />

@@ -43,6 +43,8 @@ export const getNoteContent = async (nid: number) => {
           text
           nid
           _id
+          mood
+          weather
         }
       }
     }

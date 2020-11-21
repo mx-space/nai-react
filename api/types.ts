@@ -18,4 +18,6 @@ export type NoteContentPayload = {
   text: string
   nid: number
   _id: string
+  mood?: string
+  weather?: string
 }
