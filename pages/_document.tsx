@@ -14,6 +14,21 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-KPGB7KY29E"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KPGB7KY29E');
+`,
+          }}
+        ></script>
       </Html>
     )
   }
