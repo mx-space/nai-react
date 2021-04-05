@@ -17,7 +17,7 @@
     "postcss-import": "13.0.0",
     "postcss-preset-env": "6.7.0",
     "qier-progress": "1.0.4",
-    "tailwindcss": "1.9.6"
+    "tailwindcss": "2.1.1"
   },
   "dependencies": {
     "clsx": "1.1.1",
