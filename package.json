@@ -14,7 +14,7 @@
     "graphql-request": "3.3.0",
     "postcss": "8.1.7",
     "postcss-flexbugs-fixes": "5.0.1",
-    "postcss-import": "13.0.0",
+    "postcss-import": "14.0.1",
     "postcss-preset-env": "6.7.0",
     "qier-progress": "1.0.4",
     "tailwindcss": "2.1.1"
