@@ -12,7 +12,7 @@
     "cross-env": "7.0.2",
     "graphql": "15.4.0",
     "graphql-request": "3.3.0",
-    "postcss": "8.1.7",
+    "postcss": "8.2.10",
     "postcss-flexbugs-fixes": "5.0.1",
     "postcss-import": "13.0.0",
     "postcss-preset-env": "6.7.0",
